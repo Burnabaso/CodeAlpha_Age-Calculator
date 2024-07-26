@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/style.css">
+    <title>Agio | Get your Age</title>
+</head>
+<body>
+    <div class="w-5/6 border mx-auto border-rose-500 flex flex-col items-center h-lvh sm:h-fit">
+        <h1 id="wlcmMsg" class="text-3xl text-rose-600 font-bold mb-4">Welcome to Agio</h1>
+        <div id="result" class="hidden p-3 rounded-xl bg-rose-950 text-white font-bold mb-3">
+        </div>
+        <div id="toHide">
+            <h2 class="text-lg text-rose-600 font-bold mb-4">Today's Date is: <span id="currentdate">dd/mm/yyyy</span></h2>
+            <form action="" id="inputForm" class="flex flex-col">
+                <label for="" class="text-center mb-2 text-rose-700">Enter you Birth Date</label>
+                <input required type="date" id="userDate" class=" w-5/6 mx-auto border-rose-500 border rounded-lg p-2">
+                <button type="submit" class="py-3 w-3/4 mx-auto border border-rose-800 my-4 rounded-lg hover:bg-rose-600 hover:text-white hover:font-bold">Get Age</button>
+            </form>
+        </div>
+    </div>
+    <script src="/dist/index.js"></script>
+</body>
+</html>

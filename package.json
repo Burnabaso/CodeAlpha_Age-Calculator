@@ -1,0 +1,23 @@
+{
+  "name": "codealpha_age-calculator",
+  "version": "1.0.0",
+  "description": "program to calculate age of a user based on date of birth (dd/mm/yyyy)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildCss":"npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "productionCss": "npx tailwindcss -o ./dist/style.css --minify"
+  },
+  "keywords": [
+    "age",
+    "calculate",
+    "year",
+    "day",
+    "month"
+  ],
+  "author": "Ibrahim Itani",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}
